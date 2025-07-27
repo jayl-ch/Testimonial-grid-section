@@ -100,7 +100,6 @@ body {
     grid-template-rows: repeat(2, 1fr);
     &__kira-card {
       grid-area: 1/4/3/5;
-    color: var(--text-color--grey);
     }
   }
 }
