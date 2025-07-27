@@ -8,11 +8,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin: 0;
 }
 
 .container {
   border: solid red;
+  width: min(90%, 50rem);
+}
+
+.container__card {
+  border: solid blue;
 }
 
 .attribution {
