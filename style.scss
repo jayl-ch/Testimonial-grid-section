@@ -1,0 +1,50 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  font-family: 'Barlow Semi Condensed';
+}
+.container {
+  border: solid red;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr ;
+  gap: 2rem;
+  &__card-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    &-name {
+      font-weight: 600;
+    }
+  }
+  &__daniel-card {
+    grid-column: span 2;
+  }
+  &__kira-card {
+    grid-area: 1/4/3/5;
+  }
+  &__patrick-card {
+    grid-area: 2/2/3/4
+  }
+  &__card {
+    border: solid blue;
+    padding: 2rem;
+    &-img {
+      border-radius: 50%;
+    }
+  }
+}
+.card-info-wrapper p{
+  margin: 0;
+}
+.attribution { font-size: 11px; text-align: center;
+  & a { color: hsl(228, 45%, 44%); }
+}
