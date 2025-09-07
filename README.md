@@ -47,4 +47,4 @@ I learned how CSS Grid and media queries work together to create responsive layo
 
 ## Author
 
-- Frontend Mentor - [@jldevx](https://www.frontendmentor.io/profile/jldevx)
+- Frontend Mentor - [@jayl-ch](https://www.frontendmentor.io/profile/jayl-ch)
