@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://jldevx.github.io/Testimonial-grid-section/](https://jldevx.github.io/Testimonial-grid-section/)
+- Live Site URL: [https://jayl-ch.github.io/Testimonial-grid-section/](https://jayl-ch.github.io/Testimonial-grid-section/)
 
 ## My process
 
